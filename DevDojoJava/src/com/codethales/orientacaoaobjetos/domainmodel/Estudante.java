@@ -1,4 +1,4 @@
-package com.codethales.classes.domainmodel;
+package com.codethales.orientacaoaobjetos.domainmodel;
 
 public class Estudante {
 
@@ -30,10 +30,16 @@ public class Estudante {
         this.gender = gender;
     }
 
+    public void printDados(String name, int age, char gender){
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Gender: " + gender);
+    }
+
     public void printDados(){
-        System.out.println("Name: " + getName());
-        System.out.println("Age: " + getAge());
-        System.out.println("Gender: " + getGender());
+        System.out.println(this.getName());
+        System.out.println(this.getAge());
+        System.out.println(this.getGender());
     }
 
 }

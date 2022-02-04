@@ -1,6 +1,6 @@
-package com.codethales.classes.test;
+package com.codethales.orientacaoaobjetos.test;
 
-import com.codethales.classes.domainmodel.Estudante;
+import com.codethales.orientacaoaobjetos.domainmodel.Estudante;
 
 public class EstudanteTest {
     public static void main(String[] args) {
@@ -14,8 +14,8 @@ public class EstudanteTest {
         estudante2.setAge(15);
         estudante2.setGender('M');
 
-        estudante1.printDados();
+        estudante1.printDados(estudante1.getName(), estudante1.getAge(), estudante1.getGender());
         System.out.println("*******************");
-        estudante2.printDados();
+        estudante2.printDados(estudante2.getName(), estudante2.getAge(), estudante2.getGender());
     }
 }
