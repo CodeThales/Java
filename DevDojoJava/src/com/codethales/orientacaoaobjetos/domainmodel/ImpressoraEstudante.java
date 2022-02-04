@@ -1,4 +1,4 @@
-package com.codethales.classes.domainmodel;
+package com.codethales.orientacaoaobjetos.domainmodel;
 
 public class ImpressoraEstudante {
     public void imprime(Estudante estudante){
