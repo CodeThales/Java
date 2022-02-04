@@ -1,8 +1,6 @@
-package com.codethales.classes.test;
+package com.codethales.orientacaoaobjetos.test;
 
-import com.codethales.classes.domainmodel.Professor;
-
-import java.util.List;
+import com.codethales.orientacaoaobjetos.domainmodel.Professor;
 
 public class ProfessorTest {
     public static void main(String[] args) {
