@@ -1,4 +1,4 @@
-package com.codethales.classes.domainmodel;
+package com.codethales.orientacaoaobjetos.domainmodel;
 
 public class Carro {
     public String name;
