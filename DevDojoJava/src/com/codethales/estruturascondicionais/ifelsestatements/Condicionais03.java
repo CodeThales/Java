@@ -1,4 +1,4 @@
-package com.codethales.ifelsestatements.test;
+package com.codethales.estruturascondicionais.ifelsestatements;
 
 public class Condicionais03 {
     public static void main(String[] args) {

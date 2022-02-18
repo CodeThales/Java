@@ -1,4 +1,4 @@
-package com.codethales.ifelsestatements.test;
+package com.codethales.estruturascondicionais.ifelsestatements;
 
 //Cálculo do imposto de renda baseado na tabela de 2022.
 public class Condicionais05 {

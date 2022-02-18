@@ -1,4 +1,4 @@
-package com.codethales.ifelsestatements.test;
+package com.codethales.estruturascondicionais.ifelsestatements;
 
 import java.util.Scanner;
 
